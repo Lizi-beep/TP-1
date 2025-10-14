@@ -1,0 +1,70 @@
+header{
+    background-color:rgb(121, 121, 250);
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: "Helvetica", Times, Serif; 
+    font-weight: bold;
+}
+
+h2{ 
+    text-align : center;
+    font-family: "Helvetica", Times, Serif; 
+}
+#nom{
+    color: white;
+    text-align: center;
+}
+
+ul{ 
+    font-family: "Helvetica", Times, Sans-Serif; 
+    list-style-type: none;
+}
+li:before {
+    content: "✿ ";
+}
+
+img{
+    display: block;
+    margin: 0px auto;
+}
+
+h3{
+    font-family: "Helvetica", Times, Serif;
+}
+
+mark{
+    background-color:rgb(135, 135, 247);
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th, td{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    font-family: "Helvetica", Times, Serif; 
+}
+
+@media screen and(max-width: 799px) {
+    nav a {
+        display: block;
+    }
+}
+
+#tel{
+    text-align: right;
+}
+#mail{
+    text-align: right;
+}
+#adresse{
+    text-align: left;
+}
